@@ -1,0 +1,14 @@
+<app-navbar></app-navbar>
+<div fxLayout="column" fxLayoutAlign="space-around center">
+  <input type="file" accept=".xlsx, .xls, .csv" (change)="onFileChange($event)" />
+  <!-- <div id="output"></div> -->
+  <table class="">
+		<tbody>
+      <tr *ngFor="let row of data">
+			<td *ngFor="let val of row">
+				{{val}}
+			</td>
+		</tr>
+    </tbody>
+	</table>
+</div>

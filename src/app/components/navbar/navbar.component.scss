@@ -1,0 +1,53 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+div {
+  overflow: inherit;
+}
+
+.mat-sidenav-container{
+min-height: 25vh !important;
+}
+
+a{
+  text-decoration: none;
+  white-space: normal;
+}
+
+button{
+  min-width: min-content;
+}
+
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar{
+  margin-bottom: 1rem !important;
+}
+
+.mat-toolbar a{
+  color: hsla(0, 0, 100%, 0.9);
+}
+
+.nav-person-link{
+  display: inline-flex !important;
+  vertical-align: middle !important;
+}
+
+.nav-person-icon{
+  line-height: 1.5;
+}
+
+.innerToolBar a.active {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.9);
+}
+.formBtn{
+  background: #004666 !important;
+}

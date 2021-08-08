@@ -1,0 +1,14 @@
+<h1 mat-dialog-title class="text-center">Upload Missing Timesheet </h1>
+<div mat-dialog-content class="">
+  <div id="ans">
+    <div fxLayout="column" fxLayoutAlign="space-around center">
+
+    <input type="file" accept=".xlsx, .xls, .csv" (change)="onFileChange($event)" />
+    </div>
+  </div>
+</div>
+<!-- align="end" -->
+<!-- <div mat-dialog-actions style="display: none;">
+  <button mat-button class="float-right" (click)="onNoClick()" cdkFocusInitial>No Thanks</button>
+  <button mat-button [mat-dialog-close]="data.name" cdkFocusInitial>Ok</button>
+</div> -->
